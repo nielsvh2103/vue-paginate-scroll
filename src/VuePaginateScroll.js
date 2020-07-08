@@ -87,12 +87,6 @@ export default{
 			ref: 'scroll-observer'
 		});
 
-		if(!!this.$scopedSlots.loader){
-			const loader = h('div', {
-				staticClass: 'vue-infinite-scroll__loader'
-			}, this.$scopedSlots.loader());
-		}
-
 		return h('div', {
 			staticClass: 'vue-infinite-scroll'
 		}, [content, scrollObserver]);

@@ -1,8 +1,8 @@
 {
   "name": "vue-paginate-scroll",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "description": "Vue component that handles infinite scroll",
+  "main": "src/VuePagiateScroll.js",
   "dependencies": {
     "vue": "^2.6.11"
   },
@@ -14,9 +14,10 @@
     "regenerator-runtime": "^0.13.5",
     "vue-template-compiler": "^2.6.11"
   },
+  "keywords": ["vue", "infinite", "scroll", "pagination", "component"],
   "scripts": {
     "test": "jest --watch"
   },
   "author": "Mameli Federico <federico_mameli@yahoo.com>",
-  "license": "ISC"
+  "license": "MIT"
 }
