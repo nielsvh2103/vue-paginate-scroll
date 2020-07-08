@@ -35,7 +35,9 @@ Vue component that handles "infinite scroll"
 
 ## Props
   **src**: type: Array, required. Data to use as source.
+  
   **perScroll**: type: Number, default: 10. Define how many items to show per scroll
+  
   **observerOptions**: type: Object, default: {threshold: .75}. IntersectionObserver options
   
 ## Slots
