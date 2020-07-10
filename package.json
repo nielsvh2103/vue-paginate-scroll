@@ -2,7 +2,7 @@
   "name": "vue-paginate-scroll",
   "version": "1.0.1",
   "description": "Vue component that handles infinite scroll",
-  "main": "src/VuePagiateScroll.js",
+  "main": "src/index.js",
   "dependencies": {
     "vue": "^2.6.11"
   },

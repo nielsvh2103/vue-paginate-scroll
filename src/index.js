@@ -1,12 +1,5 @@
-/**
- * div
- *  .content
- *  .observer
- *  .loader
- */
-
 export default{
-	name: 'vue-infinite-scroll',
+	name: 'vue-paginate-scroll',
 
 	props: {
 		src: { type: Array, required: true },
