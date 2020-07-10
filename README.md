@@ -4,7 +4,7 @@ Vue component that handles "infinite scroll"
 
 `npm install vue-paginate-scroll`
 
-➡➡[Example here](https://codesandbox.io/s/vuepaginatescroll-example-hqsqt?file=/src/App.vue)
+➡➡[Example here](https://codesandbox.io/s/vue-paginate-scroll-example-ecvqi?file=/src/App.vue)
 
 ### Install as global component
 ```javascript
