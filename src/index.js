@@ -23,14 +23,9 @@ export default{
 		src: function (newSrc, oldSrc) {
 			this.data = [];
 			this.currentScroll = 0;
+			this.lastScroll = null;
 
-			const start = 0;
-			const end = start + this.perScroll;
-
-			if(start < this.src.length){
-				const chunk = this.src.slice(start, end);
-				this.data.push(...chunk);
-			}
+			this.addNextChunk();
 		}
 	},
 
