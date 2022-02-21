@@ -22,6 +22,7 @@ export default{
 	watch: {
 		src: function (newSrc, oldSrc) {
 			this.data = [];
+			this.currentScroll = 0;
 
 			const start = 0;
 			const end = start + this.perScroll;
