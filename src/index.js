@@ -22,7 +22,14 @@ export default{
 	watch: {
 		src: function (newSrc, oldSrc) {
 			this.data = [];
-			this.addNextChunk();
+			const start = 0;
+			const end = start + this.perScroll;
+
+			if(start < this.src.length){
+				console.log('test');
+				const chunk = this.src.slice(start, end);
+				this.data.push(...chunk);
+			}
 		}
 	},
 
