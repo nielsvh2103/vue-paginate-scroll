@@ -19,6 +19,13 @@ export default{
 		}
 	},
 
+	watch: {
+		src: function (newSrc, oldSrc) {
+			this.data = [];
+			this.addNextChunk();
+		}
+	},
+
 	methods: {
 	init(){
 		this.lastScroll = Math.round(this.src.length / this.perScroll);
